@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RemoteFarm</title>
+</head>
+<body>
+    <div id="dashboard" class ="dashboard">
+        <div id="menu" class="menu">
+            <h1>'메뉴, 대시보드명, 더보기'</h1>
+        </div>
+        <div id="cctv" class="cctv">
+            <b>CCTV 표시창</b>
+            <video src="rtsp://admin:Camera!1@rf01096668799.iptime.org/Streaming/Channels/101">
+                Your browser does not support the VIDEO tag and/or RTP streams.
+            </video>
+            <video src="https://content.codecademy.com/courses/freelance-1/unit-1/lesson-2/htmlcss1-vid_brown-bear.mp4" width=320 height=240>
+                Video not supported
+              </video>
+            <img src="rtsp://admin:Camera!1@rf01096668799.iptime.org/Image/Channels/101">
+        </div>
+        <div id="controller" class="controller">
+            <p>제어버튼,센서상황창</p>
+        </div>
+    </div>
+</body>
+</html>
